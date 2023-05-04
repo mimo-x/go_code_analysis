@@ -9,6 +9,8 @@ func main() {
 		if i%2 == 0 {
 			continue
 		}
+		fmt.Println("this Odd number ！")
 		fmt.Printf("this val is %v\n", i)
 	}
+
 }
