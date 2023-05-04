@@ -12,5 +12,9 @@ func main() {
 		fmt.Println("this Odd number ！")
 		fmt.Printf("this val is %v\n", i)
 	}
+	print(add(1, 2))
+}
 
+func add(a, b int) int {
+	return a + b
 }
